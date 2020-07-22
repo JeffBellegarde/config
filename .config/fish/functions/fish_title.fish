@@ -1,1 +1,3 @@
-/Users/Bellegarde/.dotfiles/fish/functions/fish_title.fish
+function fish_title
+  true
+end

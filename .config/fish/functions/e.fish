@@ -1,1 +1,3 @@
-/Users/Bellegarde/.dotfiles/fish/functions/e.fish
+function e
+  edit -n $argv
+end

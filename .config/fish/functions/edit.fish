@@ -1,1 +1,4 @@
-/Users/Bellegarde/.dotfiles/fish/functions/edit.fish
+function edit
+  eval "emacsclient $argv"
+end
+

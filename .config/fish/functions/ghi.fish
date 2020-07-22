@@ -1,1 +1,3 @@
-/Users/Bellegarde/.dotfiles/fish/functions/ghi.fish
+function ghi
+  env GITHUB_HOST=github.dev.pages gh $argv
+end
