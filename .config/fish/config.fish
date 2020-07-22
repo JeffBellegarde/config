@@ -1,0 +1,1 @@
+/Users/Bellegarde/.fresh/build/config-fish-config.fish
