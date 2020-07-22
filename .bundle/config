@@ -1,1 +1,3 @@
-/Users/Bellegarde/.fresh/build/bundle-config
+---
+BUNDLE_BINSTUBS: .bin
+BUNDLE_PATH: vendor/bundle
