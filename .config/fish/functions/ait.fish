@@ -1,1 +1,0 @@
-/Users/Bellegarde/.dotfiles/fish/functions/ait.fish
