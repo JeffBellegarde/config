@@ -9,4 +9,4 @@ set PATH /usr/local/Cellar/surfraw/2.2.9/lib/surfraw $PATH
 set PATH (python3 -m site --user-base)/bin $PATH
 set PATH ~/.cargo/bin $PATH
 eval (direnv hook fish)
-status --is-interactive; and source (rbenv init -|psub)
+#status --is-interactive; and source (rbenv init -|psub)
