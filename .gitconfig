@@ -1,7 +1,8 @@
 # fresh: gitconfig
 
 [credential]
-	helper = osxkeychain
+	helper = store
+
 [branch]
         autosetupmerge = true
         # Tells git-branch and git-checkout to setup new branches so that git-pull(1)
