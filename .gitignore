@@ -1,1 +1,15 @@
-.cfg.git
+#This gets a bit complicated
+#git will only recurse into directories if the directory is not ignored.
+#I ignore most top-level stuff but have to reenable some files that need to be tracked.
+#I also have to explicitly allow any directory that contains a file I want to be tracked.
+
+#ignore everything by default
+*
+#Show the .config anyway
+!.config/
+
+#Ignore everything in .config
+.config/*
+#except the fish directory and it's contents
+!.config/fish
+!.config/fish/**
