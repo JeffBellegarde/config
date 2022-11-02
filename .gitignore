@@ -8,8 +8,8 @@
 #Show the .config anyway
 !.config/
 
-#Ignore everything in .config
+#Ignore everything actually in .config
 .config/*
-#except the fish directory and it's contents
+#include the fish directory and it's contents
 !.config/fish
 !.config/fish/**
